@@ -1,0 +1,133 @@
+header .top { height: 150px; display: flex; }
+
+header .top span { display: flex; }
+
+header .top span h2 { color: #67809f; margin-top: 5px; padding: 5px 15px; font-family: "Advent Pro", sans-serif; font-size: 50px; font-weight: 700; letter-spacing: 0.05em; }
+
+header .top nav { margin-left: auto; margin-right: 10px; margin-top: 25px; }
+
+header .top nav a { color: #2e3131; margin: 0 10px; text-decoration: none; text-transform: uppercase; font-family: "Advent Pro", sans-serif; font-size: 20px; font-weight: 600; letter-spacing: 0.02em; }
+
+header .top nav a:hover { color: #307df1; }
+
+.isometric-cube { display: flex; }
+
+.isometric-cube .room { flex: 1; }
+
+.isometric-cube .room #bose, .isometric-cube .room #keyboard, .isometric-cube .room #phone, .isometric-cube .room #computer, .isometric-cube .room #jbl, .isometric-cube .room #fountain-pen, .isometric-cube .room #map, .isometric-cube .room #photo1, .isometric-cube .room #photo2, .isometric-cube .room #athletics, .isometric-cube .room #pin-board, .isometric-cube .room #lava-lamp, .isometric-cube .room #necklace, .isometric-cube .room #candle1, .isometric-cube .room #candle2, .isometric-cube .room #anubis, .isometric-cube .room #helmet, .isometric-cube .room #hulkbuster, .isometric-cube .room #poster, .isometric-cube .room #model, .isometric-cube .room #black-panther { fill-opacity: 0; stroke-opacity: 0; }
+
+.isometric-cube .room #bose image, .isometric-cube .room #keyboard image, .isometric-cube .room #phone image, .isometric-cube .room #computer image, .isometric-cube .room #jbl image, .isometric-cube .room #fountain-pen image, .isometric-cube .room #map image, .isometric-cube .room #photo1 image, .isometric-cube .room #photo2 image, .isometric-cube .room #athletics image, .isometric-cube .room #pin-board image, .isometric-cube .room #lava-lamp image, .isometric-cube .room #necklace image, .isometric-cube .room #candle1 image, .isometric-cube .room #candle2 image, .isometric-cube .room #anubis image, .isometric-cube .room #helmet image, .isometric-cube .room #hulkbuster image, .isometric-cube .room #poster image, .isometric-cube .room #model image, .isometric-cube .room #black-panther image { display: none; }
+
+.isometric-cube .room #bose:hover, .isometric-cube .room #keyboard:hover, .isometric-cube .room #phone:hover, .isometric-cube .room #computer:hover, .isometric-cube .room #jbl:hover { stroke-opacity: 1; stroke: #08F7FE; transition: 0.3s; }
+
+.isometric-cube .room #bose:hover image, .isometric-cube .room #keyboard:hover image, .isometric-cube .room #phone:hover image, .isometric-cube .room #computer:hover image, .isometric-cube .room #jbl:hover image { display: inline; }
+
+.isometric-cube .room #fountain-pen:hover, .isometric-cube .room #lava-lamp:hover, .isometric-cube .room #necklace:hover, .isometric-cube .room #anubis:hover { stroke-opacity: 1; stroke: #0df78c; transition: 0.3s; }
+
+.isometric-cube .room #fountain-pen:hover image, .isometric-cube .room #lava-lamp:hover image, .isometric-cube .room #necklace:hover image, .isometric-cube .room #anubis:hover image { display: inline; }
+
+.isometric-cube .room #map:hover, .isometric-cube .room #athletics:hover, .isometric-cube .room #pin-board:hover, .isometric-cube .room #black-panther:hover { stroke-opacity: 1; stroke: #7122fa; transition: 0.3s; }
+
+.isometric-cube .room #map:hover image, .isometric-cube .room #athletics:hover image, .isometric-cube .room #pin-board:hover image, .isometric-cube .room #black-panther:hover image { display: inline; }
+
+.isometric-cube .room #helmet:hover, .isometric-cube .room #hulkbuster:hover, .isometric-cube .room #poster:hover, .isometric-cube .room #model:hover { stroke-opacity: 1; stroke: #fdf200; transition: 0.3s; }
+
+.isometric-cube .room #helmet:hover image, .isometric-cube .room #hulkbuster:hover image, .isometric-cube .room #poster:hover image, .isometric-cube .room #model:hover image { display: inline; }
+
+.isometric-cube .room .photos:hover #photo1 { stroke-opacity: 1; stroke: #7122fa; transition: 0.3s; }
+
+.isometric-cube .room .photos:hover #photo1 image { display: inline; }
+
+.isometric-cube .room .photos:hover #photo2 { stroke-opacity: 1; stroke: #7122fa; transition: 0.3s; }
+
+.isometric-cube .room .photos:hover #photo2 image { display: inline; }
+
+.isometric-cube .room .candles:hover #candle1 { stroke-opacity: 1; stroke: #0df78c; transition: 0.3s; }
+
+.isometric-cube .room .candles:hover #candle1 image { display: inline; }
+
+.isometric-cube .room .candles:hover #candle2 { stroke-opacity: 1; stroke: #0df78c; transition: 0.3s; }
+
+.isometric-cube .room .candles:hover #candle2 image { display: inline; }
+
+.isometric-cube .room #text-bose, .isometric-cube .room #text-keyboard, .isometric-cube .room #text-phone, .isometric-cube .room #text-computer, .isometric-cube .room #text-jbl, .isometric-cube .room #text-fountain-pen, .isometric-cube .room #text-map, .isometric-cube .room #text-photos, .isometric-cube .room #text-athletics, .isometric-cube .room #text-pin-board, .isometric-cube .room #text-lava-lamp, .isometric-cube .room #text-necklace, .isometric-cube .room #text-candles, .isometric-cube .room #text-anubis, .isometric-cube .room #text-helmet, .isometric-cube .room #text-hulkbuster, .isometric-cube .room #text-poster, .isometric-cube .room #text-model, .isometric-cube .room #text-black-panther { fill-opacity: 0; }
+
+.isometric-cube .room #text-bose image, .isometric-cube .room #text-keyboard image, .isometric-cube .room #text-phone image, .isometric-cube .room #text-computer image, .isometric-cube .room #text-jbl image, .isometric-cube .room #text-fountain-pen image, .isometric-cube .room #text-map image, .isometric-cube .room #text-photos image, .isometric-cube .room #text-athletics image, .isometric-cube .room #text-pin-board image, .isometric-cube .room #text-lava-lamp image, .isometric-cube .room #text-necklace image, .isometric-cube .room #text-candles image, .isometric-cube .room #text-anubis image, .isometric-cube .room #text-helmet image, .isometric-cube .room #text-hulkbuster image, .isometric-cube .room #text-poster image, .isometric-cube .room #text-model image, .isometric-cube .room #text-black-panther image { display: none; }
+
+.isometric-cube .room #bose:hover + #text-bose { fill: #08F7FE; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #bose:hover + #text-bose text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #keyboard:hover + #text-keyboard { fill: #08F7FE; fill-opacity: 0.85; }
+
+.isometric-cube .room #keyboard:hover + #text-keyboard text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #phone:hover + #text-phone { fill: #08F7FE; fill-opacity: 0.85; }
+
+.isometric-cube .room #phone:hover + #text-phone text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #computer:hover + #text-computer { fill: #08F7FE; fill-opacity: 0.85; }
+
+.isometric-cube .room #computer:hover + #text-computer text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #jbl:hover + #text-jbl { fill: #08F7FE; fill-opacity: 0.85; }
+
+.isometric-cube .room #jbl:hover + #text-jbl text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #fountain-pen:hover + #text-fountain-pen { fill: #0df78c; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #fountain-pen:hover + #text-fountain-pen text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #map:hover + #text-map { fill: #7122fa; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #map:hover + #text-map text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room .photos:hover + #text-photos { fill: #7122fa; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room .photos:hover + #text-photos text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #athletics:hover + #text-athletics { fill: #7122fa; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #athletics:hover + #text-athletics text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #pin-board:hover + #text-pin-board { fill: #7122fa; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #pin-board:hover + #text-pin-board text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #lava-lamp:hover + #text-lava-lamp { fill: #0df78c; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #lava-lamp:hover + #text-lava-lamp text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #necklace:hover + #text-necklace { fill: #0df78c; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #necklace:hover + #text-necklace text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room .candles:hover + #text-candles { fill: #0df78c; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room .candles:hover + #text-candles text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #anubis:hover + #text-anubis { fill: #0df78c; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #anubis:hover + #text-anubis text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #helmet:hover + #text-helmet { fill: #fdf200; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #helmet:hover + #text-helmet text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #hulkbuster:hover + #text-hulkbuster { fill: #fdf200; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #hulkbuster:hover + #text-hulkbuster text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #poster:hover + #text-poster { fill: #fdf200; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #poster:hover + #text-poster text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #model:hover + #text-model { fill: #fdf200; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #model:hover + #text-model text { fill: #FFF; fill-opacity: 1; }
+
+.isometric-cube .room #black-panther:hover + #text-black-panther { fill: #7122fa; fill-opacity: 0.85; transition: 0.3s; }
+
+.isometric-cube .room #black-panther:hover + #text-black-panther text { fill: #FFF; fill-opacity: 1; }
+
+/*# sourceMappingURL=main.css.map */
