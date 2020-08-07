@@ -1,0 +1,320 @@
+header
+   .top
+      // background: honeydew
+      height: 150px
+      display: flex
+
+      span
+         // background: pink
+         display: flex
+         // align-items: center
+         
+         h2
+            color: #67809f
+            // border: #67809f solid 5px
+            
+            margin-top: 5px
+            padding: 5px 15px
+
+            font-family: $font-8
+            font:
+               size: 50px
+               weight: 700
+            letter-spacing: 0.05em
+
+      nav
+         // background: #89c4f4
+         // floats don't work in flexbox.
+         margin-left: auto
+         margin-right: 10px
+         margin-top: 25px
+
+         a
+            // background: #5c97bf
+            color: #2e3131
+
+            margin: 0 10px
+
+            text-decoration: none
+            text-transform: uppercase
+            font-family: $font-8
+            font:
+               size: 20px
+               weight: 600
+            letter-spacing: 0.02em
+
+         a:hover
+            color: #307df1
+            
+
+.isometric-cube
+   display: flex
+
+   .room
+      flex: 1
+
+      #bose, #keyboard, #phone, #computer, #jbl, #fountain-pen, #map, #photo1, #photo2, #athletics, #pin-board, #lava-lamp, #necklace, #candle1, #candle2, #anubis, #helmet, #hulkbuster, #poster, #model, #black-panther
+         fill:
+            opacity: 0
+         stroke:
+            opacity: 0
+         image
+            display: none
+      
+      #bose:hover, #keyboard:hover, #phone:hover, #computer:hover, #jbl:hover
+         stroke:
+            opacity: 1
+         stroke: #08F7FE
+         image
+            display: inline
+         transition: 0.3s
+
+      #fountain-pen:hover, #lava-lamp:hover, #necklace:hover, #anubis:hover
+         stroke:
+            opacity: 1
+         stroke: #0df78c
+         image
+            display: inline
+         transition: 0.3s
+
+      #map:hover, #athletics:hover, #pin-board:hover, #black-panther:hover
+         stroke:
+            opacity: 1
+         stroke: #7122fa
+         image
+            display: inline
+         transition: 0.3s
+
+      #helmet:hover, #hulkbuster:hover, #poster:hover, #model:hover
+         stroke:
+            opacity: 1
+         stroke: #fdf200
+         image
+            display: inline
+         transition: 0.3s
+
+      .photos:hover
+         #photo1
+            stroke:
+               opacity: 1
+            stroke: #7122fa
+            image
+               display: inline
+            transition: 0.3s     
+         #photo2
+            stroke:
+               opacity: 1
+            stroke: #7122fa
+            image
+               display: inline
+            transition: 0.3s     
+
+      .candles:hover
+         #candle1
+            stroke:
+               opacity: 1
+            stroke: #0df78c
+            image
+               display: inline
+            transition: 0.3s     
+         #candle2
+            stroke:
+               opacity: 1
+            stroke: #0df78c
+            image
+               display: inline
+            transition: 0.3s 
+
+      #text-bose, #text-keyboard, #text-phone, #text-computer, #text-jbl, #text-fountain-pen, #text-map, #text-photos, #text-athletics, #text-pin-board, #text-lava-lamp, #text-necklace, #text-candles, #text-anubis, #text-helmet, #text-hulkbuster, #text-poster, #text-model, #text-black-panther
+         fill:
+            opacity: 0
+         image
+            display: none
+
+
+      // TODO: HOVER
+      #bose:hover + #text-bose
+         fill: #08F7FE
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      #keyboard:hover + #text-keyboard
+         fill: #08F7FE
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+
+      #phone:hover + #text-phone
+         fill: #08F7FE
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+
+      #computer:hover + #text-computer
+         fill: #08F7FE
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+
+      #jbl:hover + #text-jbl
+         fill: #08F7FE
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+
+      #fountain-pen:hover + #text-fountain-pen
+         fill: #0df78c
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      #map:hover + #text-map
+         fill: #7122fa
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      .photos:hover + #text-photos
+         fill: #7122fa
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      #athletics:hover + #text-athletics
+         fill: #7122fa
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      #pin-board:hover + #text-pin-board
+         fill: #7122fa
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      #lava-lamp:hover + #text-lava-lamp
+         fill: #0df78c
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      #necklace:hover + #text-necklace
+         fill: #0df78c
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      .candles:hover + #text-candles
+         fill: #0df78c
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      #anubis:hover + #text-anubis
+         fill: #0df78c
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      #helmet:hover + #text-helmet
+         fill: #fdf200
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      #hulkbuster:hover + #text-hulkbuster
+         fill: #fdf200
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      #poster:hover + #text-poster
+         fill: #fdf200
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      #model:hover + #text-model
+         fill: #fdf200
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
+
+      #black-panther:hover + #text-black-panther
+         fill: #7122fa
+         fill:
+            opacity: 0.85
+         text
+            fill: #FFF
+            fill:
+               opacity: 1
+         transition: 0.3s
